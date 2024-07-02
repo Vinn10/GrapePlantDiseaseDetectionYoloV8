@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .background1{
+    background-image: url("../source/backtopleft.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+} */
+
+.background2{
+    background-image: url("../source/backtop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+
+body {
+    background-color: #96d758;
+}
+
+.navbar {
+    box-shadow: 0 4px 6px -6px #222;
+    background-color: 	#002a2d;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.title-navbar {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.menu {
+    color: white;
+    font-size: 16px;
+}
+
+.nav li a:hover {
+    color: #6ba3d0;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.nameDetection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid;
+    border-color: #002a2d;
+    padding-right: 10px;
+    padding-left: 10px;
+    max-width: 300px;
+    /* border-bottom: 4px solid; */
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #002a2d;
+    padding-bottom: 10px;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.instructions {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 25px;
+    color: #002a2d;
+}
+
+.image-output {
+    max-width: 100%;
+    /* Set the image width to be responsive within the container */
+    max-height: 100%;
+    /* Set the image height to be responsive within the container */
+    flex-grow: 1;
+    object-fit: contain;
+    margin: 40px;
+}
+
+.goCenter {
+    display: flex;
+    justify-content: center;
+}
+
+.new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    max-width: 100%;
+    color: #fcfcfc;
+    padding: 20px;
+    background-color: #002a2d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btnCustom {
+    display: flex;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Main section styles */
+section.col-sm {
+    background-color: #b4b4b4;
+    max-width: 813px;
+    /* Set your desired maximum width */
+    max-height: 1600px;
+    /* Set your desired maximum height */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 0 auto;
+    /* Center horizontally */
+    margin-top: 0px;
+    margin-bottom: 80px;
+    /* Add top margin for vertical centering */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    /* Add this line to hide overflowing content */
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container form button {
+    margin-top: 7px;
+}
+
+.MyBiodata {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #002a2d;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.result{
+    background-color:  #002a2d !important;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 540px){
+    .title-navbar {
+        display: none;
+    }
+
+    .navbar-collapse{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*,
+html,
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background1{
+    background-image: url("../source/backbot.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+.background2{
+    background-image: url("../source/backtop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+
+/* .dark{
+    background-blend-mode: darken;
+    
+} */
+
+body {
+    background-color: #96d758;
+    
+    /* background-position: center; Center the image */
+}
+
+.navbar {
+    box-shadow: 0 4px 6px -6px #222;
+    background-color: 	#002a2d;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+.title-navbar {
+    margin-bottom: 0;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+}
+
+.menu {
+    color: white;
+    font-size: 16px;
+}
+
+.nav li a:hover {
+    color: #6ba3d0;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 89vh;
+    color: white;
+}
+
+.nameDetection {
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    /* border-right: 4px;
+    border-left: 4px; */
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 40px;
+    color:#002a2d;
+}
+
+.set-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.carousel-img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: justify;
+    color: #002a2d;
+}
+
+.MyBiodata {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    text-align: center;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    background-color: #002a2d;
+    color: white;
+    margin-bottom: 0px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 766px){
+    .nameDetection {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 448px){
+    .nameDetection {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .nameDetection {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .title-navbar {
+        display: none;
+    }
+
+    .navbar-collapse{
+        justify-content: center;
+    }
+}
