@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
 </head>
 <body>
-  <h1>YOLOv8 - Chili Disease Detection App</h1>
+  <h1>YOLOv8 - Grape Disease Detection App</h1>
   
   <div class="section">
     <h2 class="section-title">Description</h2>
     <p>
-      This website can carry out disease detection on chili plants in the categories: Healthy, Curly Leaves, Leaf Spots, Yellow Leaves.
+      This website can carry out disease detection on grape plants in the categories: Healthy, Black Rot, Esca Black Measles.
     </p>
   </div>
   
